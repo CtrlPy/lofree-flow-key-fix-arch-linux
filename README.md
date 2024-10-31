@@ -1,6 +1,6 @@
 # lofree-flow-key-fix-arch-linux
 
-### Description: This repository contains a script and udev rule for configuring the Fn keys on the Lofree Flow keyboard in Arch Linux. The setup allows F-keys to be used by default, while multimedia functions can be activated with Fn + F.
+####  *Description: This repository contains a script and udev rule for configuring the Fn keys on the Lofree Flow keyboard in Arch Linux. The setup allows F-keys to be used by default, while multimedia functions can be activated with Fn + F.*
 
 1. Requirements
 Arch Linux (or any system supporting udev)
