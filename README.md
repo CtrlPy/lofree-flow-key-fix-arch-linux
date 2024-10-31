@@ -53,9 +53,9 @@ Copy code
 ```zsh
 ACTION=="add", ATTRS{name}=="Flow84@Lofree", RUN+="/home/your_username/lofree_fn_fix.sh"
 ```
-Ensure ATTRS{name} matches the name of your keyboard as seen in bluetoothctl.
+Ensure ATTRS{name} matches the name of your keyboard as seen in `bluetoothctl`.
 
-Save the rule and reload udev:
+Save the rule and reload `udev`:
 
 bash
 Copy code
