@@ -68,3 +68,6 @@ sudo udevadm trigger
 
 *Step 4*: Verify Fn Key Functionality
 After following these steps, the F1–F12 keys should function as standard F keys, and multimedia controls should be accessible with Fn + F.
+
+
+My post on reddit : https://www.reddit.com/r/MechanicalKeyboards/comments/1gi4nsy/lofree_flow_first_impressions_pros_and_cons_my/
