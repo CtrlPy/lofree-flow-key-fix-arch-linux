@@ -1,0 +1,11 @@
+# Udev rule for Lofree Flow keyboard - restore fnmode=2 on reconnect
+#
+# This rule triggers when the Lofree Flow keyboard connects over Bluetooth
+# (must be in MacOS/iOS mode: Fn + M) and re-applies fnmode=2 so that
+# F1-F12 send standard function key codes instead of media keys.
+#
+# The keyboard name "Flow84@Lofree" can be verified with:
+#   udevadm info --attribute-walk /sys/class/input/inputX | grep ATTRS{name}
+# Replace inputX with the relevant input device (check: ls /dev/input/by-id/)
+
+ACTION=="add", ATTRS{name}=="Flow84@Lofree", RUN+="/usr/local/bin/lofree_fn_fix.sh --udev"
